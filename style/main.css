@@ -1,0 +1,76 @@
+.main {
+    padding: 40px;
+    border-radius: 7px;
+    background-color: #ffffff;
+}
+
+.main__header {
+    margin: 30px 0;
+}
+
+.main__section {
+    margin: 65px 0 20px;
+    font-weight: 700;
+}
+
+.main__sectionHeader {
+    background-color: #6dddd9;
+    padding: 10px 0;
+}
+
+.main__sectionParagraph {
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+.main__table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.main__tableCell {
+    border: 1px solid #a09d9d;
+    padding: 5px;
+    color: #000000;
+}
+
+.main__tableCell:hover {
+    background-color: #1f8d8d;
+    transition: 0.5s;
+}
+
+.main__tableHeader {
+    background-color: #6dddd9;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+}
+
+.main__tableHeader:hover {
+    background-color: #6dddd9;
+}
+
+
+.js-main__table--themeChange {
+    margin: 20px;
+    padding: 10px 5px;
+    background-color: #a4dfdd;
+    box-shadow: 3px 3px 4px #000000;
+    border-radius: 15%;
+}
+
+.main__table--themeChange:hover {
+    background-color: #31a19e;
+    transition: 1s;
+}
+
+.main__table--DarkTheme {
+    background-color: #06504d;
+}
+
+.main__table--cellDarkTheme {
+    color: #ffffff;
+}

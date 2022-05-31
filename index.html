@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa moduł 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style/styles.css" rel="stylesheet">
+    <link href="./style/navBar.css" rel="stylesheet">
+    <link href="./style/main.css" rel="stylesheet">
+    <link href="./style/footer.css" rel="stylesheet">
+    <script defer src="./scripts/script.js" rel="script"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body backgroundImg">
+    <nav class="navBar">
+        <ul class="navBar__list">
+            <li class="navBar__item"><a class="navBar__link" href=#about>O mnie</a></li>
+            <li class="navBar__item"><a class="navBar__link" href=#hobby>Moje hobby</a></li>
+            <li class="navBar__item"><a class="navBar__link" href=#rank>Mój ranking filmów</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <h1 class="main__header"><strong>Moja strona</strong></h1>
+        <section id="about" class="main__section">
+            <h2 class="main__sectionHeader">Parę zdań o mnie:</h2>
+            <p class="main__sectionParagraph">Cześć, z zawodu informatyk, na codzień zajmuję się administracją systemami
+                komputerowymi, rozwiązywaniem
+                problemów użytkowników w firmie, konfigurację sprzętu komputerowego i oprogramowania. Mam nadzieję, że
+                po
+                skonczeniu kursu uda mi się znaleźć pracę jako <strong>Front-End Developer</strong>.</p>
+        </section>
+        <section id="hobby" class="section">
+            <h2 class="main__sectionHeader">Moje hobby:</h2>
+            <p class="main__sectionParagraph">Lubie słuchać muzyki, grać w gry i oglądać filmy.</p>
+        </section>
+        <section id="rank" class="section">
+            <h2 class="main__sectionHeader">Mój ranking filmów:</h2>
+            <table class="main__table">
+                <tr>
+                    <th scope="col" class="main__tableCell main__tableHeader">Nazwa filmu</th>
+                    <th scope="col" class="main__tableCell main__tableHeader">Długość filmu</th>
+                    <th scope="col" class="main__tableCell main__tableHeader">Ocena(1-5)</th>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Władca Pierścieni: Drużyna Pierścienia</td>
+                    <td class="main__tableCell">1h 58min</td>
+                    <td class="main__tableCell">5</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Władca Pierścieni: Dwie wieże</td>
+                    <td class="main__tableCell">2h 59min</td>
+                    <td class="main__tableCell">5</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Władca Pierścieni: Powrót króla</td>
+                    <td class="main__tableCell">3h 21min</td>
+                    <td class="main__tableCell">5</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Piraci z Karaibów: Skrzynia umarlaka</td>
+                    <td class="main__tableCell">2h 30min</td>
+                    <td class="main__tableCell">5</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Thor: Ragnarok</td>
+                    <td class="main__tableCell">2h 10min</td>
+                    <td class="main__tableCell">4</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="main__tableCell">Ogólna ocena</td>
+                    <td class="main__tableCell">5</td>
+                </tr>
+            </table>
+        </section>
+        <button class="js-main__table--themeChange">Włącz ciemny motyw</button>
+    </main>
+    <footer class="footer">
+        Copyright © 2022. All rights reserved.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.navBar {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.navBar__list {
+    margin: auto;
+    display: inherit;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navBar__item {
+    background-color: #a0e7e5;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin: 0 5px;
+    box-shadow: 3px 3px 4px #000000;
+}
+
+.navBar__link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navBar__item:hover {
+    background-color: #31a19e;
+    transition: 1s;
+}
